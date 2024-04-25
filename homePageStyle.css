@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-flex img {
+    width: 100px; /* Defina a largura desejada para as imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 1px; /* Adiciona um espaço entre as imagens */
+}
+
+#principal-grid {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-rows: 1fr 0.3fr 1fr 1fr 1fr 1fr 1fr 0.15fr;
+    width: 100%;
+}
+
+.secao-flex img {
+    max-width: 50%; /* Define a largura máxima para a imagem */
+    height: 50; /* Mantém a proporção da imagem */
+}
+
+.display-flex-row-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top: 1vw;
+    background-color: #00b634;
+    color: white;
+}
+
+#school-title {
+    padding-top: 1vw;
+}
+
+.header-flex {
+    padding-left: 19vw;
+}
+
+.menu-flex {
+    margin-top: 2.5vw;
+    padding-bottom: 2vw;
+}
+
+.menu-flex a {
+    padding: 0.5%;
+    border-radius: 8%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+.menu-flex a:hover {
+    transition: 0.5s;
+    background-color: rgb(231, 231, 231);
+}
+
+.cabecalho-grid {
+    display: grid;  
+}
+
+.display-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.secao-flex {
+    background-color: #00b634;
+    margin: 10px;
+    padding-top: 2vw;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.font-color-white {
+    color: white;
+}
+
+.secao-flex section {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.display-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    padding-left: 8vw;
+}
+
+#secao-homenagem {
+    background-color: aliceblue;
+}
+
+section h1 {
+    text-align: center;
+}
+
+.section-text {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.footer-flex ul {
+    padding-bottom: 1vw;
+}
+
+.footer-color {
+    background-color: #00b634;
+    width: 100%;
+}
+
+.footer-flex ul.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-flex ul.social-icons li {
+    margin: 0 10px; /* Adicione margem entre os ícones */
+}
