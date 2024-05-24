@@ -1,11 +1,91 @@
 * {
     margin: 0;
     padding: 0;
-    line-height: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+header {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 0;
 }
 
-.display-flex-row-header {
+#school-title {
+    color: #000000;
+}
+
+.nav-link {
+    color: #fffffffb !important;
+}
+
+.nav-link:hover {
+    color: rgb(54, 44, 44) !important;
+}
+
+h2, h1{
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#logo {
+    width: 100px;
+}
+
+#school-title {
+    font-size: 24px;
+}
+
+.navbar-expand-md .navbar-collapse {
+    justify-content: space-around;
+}
+
+.d-inline-flex {
+    align-items: center;
+}
+
+.lead {
+    background-color: #ffffff21;
+    font-family: "Droid Serif", serif;
+}
+
+.background-green-header {
+    background-color: #168f16;
+}
+
+.background-green {
+    background-image: linear-gradient(to right, #004000, #66CD00);
+}
+
+.background-gray {
+    background: linear-gradient(to right, #333, #999);
+}
+
+#main-title {
+    text-align: center;
+}
+
+.div-content {
+    padding: 25px;
+    color: #ffffff;
+    
+}
+
+ion-icon {
+    color: black;
+    font-size: 28px;
+}
+
+ion-icon:hover {
+    color: rgba(0, 0, 0, 0.562);
+}
+
+#footer-margin-bottom {
+    margin-bottom: 0;
+}
+
+/* .display-flex-row-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -128,4 +208,4 @@ a {
 
 .social-icons img {
     width: 50px; 
-}
+} */
