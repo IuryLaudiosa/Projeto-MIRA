@@ -17,17 +17,18 @@
 
 <body>
     <div id="container-nav">
-        <header class="bg-green text-white text-center background-green">
-            <img src="img/logo.png" alt="Logo" id="logo">
-            <h1 id="school-title">E.E Maria Ilydia Resende Andrade</h1>
+        <header class="bg-green text-black text-center background-green">
             <nav class="navbar navbar-expand-md">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                  <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a href="homePage.html" class="nav-link">Inicio</a></li>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <a href="home.html">
+                    <img src="img/logo.png" alt="Logo" id="logo">
+                </a>
+                <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a href="home.html" class="nav-link">Inicio</a></li>
                         <li class="nav-item"><a href="/" class="nav-link">Área do aluno</a></li>
                         <li class="nav-item"><a href="/" class="nav-link">Contato</a></li>
                         <li class="nav-item"><a href="#sobre-nos" class="nav-link">Sobre nós</a></li>
@@ -40,27 +41,21 @@
     <br>
     <div class="container">
 
-        <div id="main-title">
-            <h1>Nossas atividades</h1>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette background-green div-content">
-            <div class="col-md-7">
+        <div class="row featurette  div-content text-black">
+            <div class="col-md-7 lead-container-background-gray">
                 <h2 class="featurette-heading">Eleição de representante de turma</h2>
-                <p class="lead">
+                <p class="lead lead-background-gray">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit ullam perferendis dolores
                     culpa distinctio, natus doloremque in laborum facilis officiis saepe fugiat placeat nam dignissimos
                     laudantium dolore! Eius, magni.
                 </p>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5" id="container-img">
                 <img src="img/representante.jpg" class="featurette-image img-fluid mx-auto" alt="Img1" >
             </div>
         </div>
         <br>
-        <div class="row featurette background-green div-content">
+        <div class="row featurette background-green div-content box-shadow">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">Proerd</h2>
                 <p class="lead">
@@ -69,26 +64,26 @@
                     laudantium dolore! Eius, magni.
                 </p>
             </div>
-            <div class="col-md-5 order-md-1">
+            <div class="col-md-5 order-md-1" id="container-img">
                 <img src="img/proerd.jpg" class="featurette-image img-fluid mx-auto" alt="Img2">
             </div>
         </div>
         <br>
-        <div class="row featurette background-green div-content">
-            <div class="col-md-7">
+        <div class="row featurette div-content text-black">
+            <div class="col-md-7 lead-container-background-gray ">
                 <h2 class="featurette-heading">Reunião grêmio estudantil</h2>
-                <p class="lead">
+                <p class="lead lead-background-gray">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit ullam perferendis dolores
                     culpa distinctio, natus doloremque in laborum facilis officiis saepe fugiat placeat nam dignissimos
                     laudantium dolore! Eius, magni.
                 </p>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5" id="container-img">
                 <img src="img/avaliacao.jpg" class="featurette-image img-fluid mx-auto" alt="Img3">
             </div>
         </div>
         <br>
-        <div class="row featurette background-gray div-content">
+        <div class="row featurette background-gray div-content box-shadow">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">LUTO!</h2>
                 <p class="lead">
@@ -97,13 +92,13 @@
                     laudantium dolore! Eius, magni.
                 </p>
             </div>
-            <div class="col-md-5 order-md-1">
+            <div class="col-md-5 order-md-1" id="container-img">
                 <img src="img/Luto.jpg" class="featurette-image img-fluid mx-auto" alt="Img4">
             </div>
         </div>
     </div>
     <div class="container">
-        <footer class="py-3 my-4">
+        <footer class="py-3 my-4" id="sobre-nos">
             <div class="me-5 d-lg-block">
                 <ul class="nav justify-content-center border-bottom">
                     <li class="nav-item">
@@ -126,7 +121,7 @@
             </div>
         </footer>
     </div>
-    <p class="text-center text-muted background-green" id="footer-margin-bottom">© 2024 - E.E Maria Ilydia Resende Andrade</p>
+    <p class="text-center text-muted background-green" id="footer-id">© 2024 - E.E Maria Ilydia Resende Andrade</p>
 
     <!-- Script Bootsrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

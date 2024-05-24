@@ -9,6 +9,7 @@ header {
     font-size: 13px;
     letter-spacing: 0.5px;
     padding: 0;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
 }
 
 #school-title {
@@ -23,14 +24,21 @@ header {
     color: rgb(54, 44, 44) !important;
 }
 
-h2, h1{
-    font-weight: 500;
+h2 {
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #201d1d;
+}
+
+h1 {
+    font-weight: 700 !important;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 #logo {
-    width: 100px;
+    width: 70px;
 }
 
 #school-title {
@@ -38,10 +46,22 @@ h2, h1{
 }
 
 .navbar-expand-md .navbar-collapse {
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .d-inline-flex {
+    align-items: center;
+}
+
+#container-img {
+    padding: 0;
+}
+
+#container-img img{
+    max-width: 470px;
+}
+
+.row  {
     align-items: center;
 }
 
@@ -50,12 +70,20 @@ h2, h1{
     font-family: "Droid Serif", serif;
 }
 
+.lead-container-background-gray {
+    background-color: rgba(170, 170, 170, 0.219);
+}
+
+.lead-background-gray {
+    background-color: #ffffffad;
+}
+
 .background-green-header {
-    background-color: #168f16;
+    background: linear-gradient(to right, #004000, #66CD00);
 }
 
 .background-green {
-    background-image: linear-gradient(to right, #004000, #66CD00);
+    background: linear-gradient(to right, #004000, #66CD00);
 }
 
 .background-gray {
@@ -67,9 +95,12 @@ h2, h1{
 }
 
 .div-content {
-    padding: 25px;
     color: #ffffff;
-    
+    border-radius: 5px;
+}
+
+.box-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
 ion-icon {
@@ -81,131 +112,7 @@ ion-icon:hover {
     color: rgba(0, 0, 0, 0.562);
 }
 
-#footer-margin-bottom {
+#footer-id {
     margin-bottom: 0;
+    font-weight: 600;
 }
-
-/* .display-flex-row-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #00b634;
-    color: white;
-}
-#logo{
-    width: 6%;
-}
-#main-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-}
-
-#school-title {
-    padding-top: 1vw;
-}
-
-.header-flex {
-    margin-right: 20%;
-}
-
-nav {
-    margin: 25px 0;
-}
-
-nav a {
-    padding: 3px;
-    border-radius: 5px;
-    border: 1px solid black;
-}
-
-nav a:hover {
-    transition: 0.5s;
-    background-color: rgb(231, 231, 231);
-}
-
-.display-flex-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.secao-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    height: 60vh;
-    width: auto;
-    margin-bottom: 40px;
-    background-color: #00b634;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.secao-flex img{
-    width: 25%;
-}
-
-.font-color-white {
-    color: white;
-}
-
-.secao-flex section {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
-    padding: 10px;
-}
-
-#secao-homenagem {
-    background-color: aliceblue;
-    margin-bottom: 0;
-}
-
-section{
-    height: 40vh;
-}
-
-section h1 {
-    text-align: center;
-}
-
-.section-text {
-    text-align: right;
-    width: 60vw;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.sobre-nos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: 15px 0; 
-    height: auto;
-}
-
-
-.footer {
-    background-color: #00b634;
-    width: 100%;
-    text-align: center;
-    color: white;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 30vw;
-}
-
-.social-icons img {
-    width: 50px; 
-} */
