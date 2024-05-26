@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
     <link rel="stylesheet" href="/css/homePageStyle.css">
+    <link rel="stylesheet" href="/css/forumStyle.css">
 
     <!-- Link Bootsrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -22,15 +25,15 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <a href="home.html">
+                    <a href="/">
                         <img src="img/logo.png" alt="Logo" id="logo">
                     </a>
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a href="home.html" class="nav-link">Inicio</a></li>
+                        <li class="nav-item active"><a href="/" class="nav-link">Inicio</a></li>
                         <li class="nav-item"><a href="/" class="nav-link">Área do aluno</a></li>
                         <li class="nav-item"><a href="/" class="nav-link">Contato</a></li>
                         <li class="nav-item"><a href="#sobre-nos" class="nav-link">Sobre nós</a></li>
-                        <li class="nav-item"><a href="forum.html" class="nav-link">Forum</a></li>
+                        <li class="nav-item"><a href="/forum" class="nav-link">Forum</a></li>
                     </ul>
                 </div>
             </nav>
