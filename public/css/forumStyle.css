@@ -1,82 +1,45 @@
-.forum{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap: 50px;
-    margin-top: 30px;
+.background-Lightgray {
+    background-color: rgba(170, 170, 170, 0.219);
 }
 
-
-#campoForum{
-    height: 100px;
-    width: 500px;
-    text-align: center;
-}
-
-.forum input{
-    border-radius: 10px;
-    border-color: rgba(128, 128, 128, 0.203); 
-}
-
-#botaoEnviar{
-    background-color: #00b634;
-    color:white;
-    border-radius: 4px;
-    border:none;
+.img-perfil-forum{
     width: 100px;
+    border-radius: 100%;
 }
 
+.container-mensagem {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
 
-#quadro{
+.flex-mensagem-foto {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    align-items: end;
-    
-}
-
-.pergunta{
-    margin: 30px 160px;
-    padding: 10px;
-    height: 100px;
-    background-color: #5c5b5b1f;
-    border-radius: 15px;
-}
-
-.nomeComentario{
-    display: flex;
     align-items: center;
-    gap: 10px;
+    margin-right: 20px;
+    width: 140px;
 }
 
-#dataHora{
-    color: #808080;
-    font-size: 12px;
+.nome-perfil-forum {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
 }
 
-.comentario{
-    margin-left: 60px;
+.texto-mensagem-forum {
+    font-family: "Droid Serif", serif;
 }
 
-.image{
-    width: 50px;
+#botaoEnviar {
+
 }
 
-.botaoEnvio{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 200px;
-    margin-top: 50px;
-}
-
-#envio{
-    font-size: larger;
-    display: flex;
-    background-color: #00b634;
-    color:white;
-    border-radius: 4px;
-    border:none;
-    width: 240px;
-    padding: 3px;
+label {
+    font-weight: 600;
 }
